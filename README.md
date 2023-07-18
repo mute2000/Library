@@ -11,9 +11,11 @@ MySQL
 项目步骤
 
 1.安装Node.js、Express和MySQL
+
 npm init -y
 npm install express mysql
 2.配置MySQL数据库
+
 3.创建图书管理API
 在图书管理系统创建以下API：
 获取所有图书

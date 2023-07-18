@@ -14,14 +14,21 @@ MySQL
 
 npm init -y
 npm install express mysql
+
 2.配置MySQL数据库
 
 3.创建图书管理API
+
 在图书管理系统创建以下API：
+
 获取所有图书
+
 获取单个图书
+
 创建新的图书
+
 更新图书信息
+
 删除图书
 
 安装依赖项： $ npm install

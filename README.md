@@ -1,38 +1,26 @@
-待办事项管理系统
+# todo
+# 图书管理系统
 
 这个项目的目标是创建一个简单的图书管理系统的后端API，使用Node.js、Express框架和MySQL数据库编写。您将为应用程序的关键功能（如图书的增删改查等）编写API接口，以确保它们的正确性和性能。
 
-技术栈
+## 技术栈
 
-Node.js
-Express
-MySQL
+- Node.js
+- Express
+- MySQL
 
-项目步骤
+## 项目细节
 
-1.安装Node.js、Express和MySQL
+1. 使用express框架搭建后端服务，mysql模块连接MySQL数据库。
+2. 项目提供了RESTful API接口来实现书籍的增删改查功能。
+3. 在每个API接口的实现中，都有对数据库操作错误的处理。当数据库操作出现错误时，服务器会返回HTTP状态码500，并附带一个JSON对象，其中包含一个error字段，用于描述错误信息。
+4. 服务器使用Express框架搭建，监听3000端口。在服务器启动时，会尝试连接MySQL数据库，并在控制台输出连接状态信息。
+5.使用工具Postman测试图书管理API的功能。
 
-npm init -y
-npm install express mysql
+安装依赖项：
+$ npm install
 
-2.配置MySQL数据库
-
-3.创建图书管理API
-
-在图书管理系统创建以下API：
-
-获取所有图书
-
-获取单个图书
-
-创建新的图书
-
-更新图书信息
-
-删除图书
-
-安装依赖项： $ npm install
-
-启动服务器： $ npm start
+启动服务器：
+$ npm start
 
 查看网站： http://localhost:3000
